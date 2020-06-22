@@ -35,4 +35,14 @@ public class ZonePoint {
     public int hashCode() {
         return Objects.hash(minLat, maxLat, minLon, maxLon);
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+            "min_lat : " + minLat +
+            ", max_lat : " + maxLat +
+            ", min_lon : " + minLon +
+            ", max_lon : " + maxLon +
+            '}';
+    }
 }

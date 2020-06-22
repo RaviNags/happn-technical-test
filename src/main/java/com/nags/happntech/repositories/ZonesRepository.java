@@ -20,6 +20,9 @@ public class ZonesRepository {
     private static final int DATA_STARTING_LINE = 1;
     private final TsvParser parser;
 
+    /*
+     * maybe cached if there are performance needs
+     */
     public List<ZonePointEntity> findAll() {
         try {
             List<String[]> rows = parser.parseAll(ResourceUtils.getFile("classpath:data/density-input.tsv"));
