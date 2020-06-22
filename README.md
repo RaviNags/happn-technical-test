@@ -2,10 +2,6 @@
 
 The goal of this project is to handle zone densities in the world.
 
-### Issue
-
-I don't know how to call my service with spring boot in CLI without starting an application server.
-
 ### Technical Requirement
 
 You need to get JDK 11 version
@@ -14,6 +10,8 @@ Libraries :
 - Spring boot
 - Lombok
 - Univocity-parsers : to parse TSV files data in Java objects
+
+I used Spring boot because it seems to be the framework you use at Happn.
 
 ### Build and run
 
@@ -49,3 +47,8 @@ Get top density zones limited by the param {nbPoint}
             "max_lon" : -6.5
         }
     ]
+    
+
+### Issue
+
+I don't know how to call my service with spring boot in CLI without starting an application server.
