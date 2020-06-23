@@ -50,5 +50,5 @@ Get top density zones limited by the param {nbPoint}
     
 
 ### Issue
-
-I don't know how to call my service with spring boot in CLI without starting an application server.
+I worked with Spring boot because it's the framework that you use at Happn. However I don't know how to call my service with spring boot in CLI without starting an application server.
+An other solution would be to do a classic java project and include jersay for the rest part and google guice for dependancy injection.
